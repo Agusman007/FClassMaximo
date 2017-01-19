@@ -1,0 +1,50 @@
+/* Write your custom CSS here */
+
+.line {
+    height: 5px;
+    width: 30px;
+    background-color: #1DB149;
+}
+
+.line-red {
+    height: 5px;
+    width: 30px;
+    background-color: #F25656;
+}
+
+
+
+.horizontal-gradient-blue {
+    background: rgb(206,255,252); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(206,255,252,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(206,255,252,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(206,255,252,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cefffc', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+.horizontal-gradient-green {
+    background: rgb(242,252,204); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(242,252,204,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(242,252,204,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(242,252,204,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2fccc', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+.select-list select {
+    border: none !important;
+    min-height: 600px;
+    width: 100%;
+}
+
+    .select-list select option {
+        padding: 20px 10px;
+        border-bottom: 1px solid #DDD;
+    }
+
+.add-on-images {
+    max-height: 100px;
+    padding: 5px;
+    border: 1px solid #DDD;
+    margin: 5px 0;
+    border-radius: 3px;
+}
